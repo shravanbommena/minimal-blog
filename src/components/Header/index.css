@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+  background-color: rgba(244, 244, 250, 0.8);
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+}
+
+.navbar-title {
+  margin: 10px 0;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.navbar-create-button {
+  height: 28px;
+  width: 120px;
+  font-size: 16px;
+}

@@ -1,0 +1,40 @@
+.create-post-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 550px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.title-input {
+  height: 34px;
+  width: 100%;
+  padding: 4px 10px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.content-input {
+  padding: 8px 12px;
+  font-size: 16px;
+  margin-top: 10px;
+  resize: none;
+}
+
+.create-post-button {
+  height: 36px;
+  width: 120px;
+  font-size: 16px;
+}
