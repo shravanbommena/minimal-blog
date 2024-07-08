@@ -60,26 +60,8 @@ function App() {
         }}
       >
         <Switch>
-          <Route
-            exact
-            path="/"
-            render={() => (
-              <PostsDisplay
-                postList={postList}
-                setCurrentEditId={setCurrentEditId}
-              />
-            )}
-          />
-          <Route
-            path="/create-post"
-            render={() => (
-              <CreatePost
-                currentEditId={currentEditId}
-                postList={postList}
-                setPostList={setPostList}
-              />
-            )}
-          />
+          <Route exact path="/" component={PostsDisplay} />
+          <Route path="/create-post" component={CreatePost} />
         </Switch>
       </PostContext.Provider>
     </BrowserRouter>

@@ -6,6 +6,7 @@ import "./index.css";
 
 const PostsDisplay = (props) => {
   const { history } = props;
+  console.log(props);
   const postDetails = useContext(PostContext);
   const { postList } = postDetails;
   const onClickCreatePostButton = () => history.push("/create-post");
